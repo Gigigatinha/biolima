@@ -1,0 +1,60 @@
+/* -------- Sintaxe ---------
+
+seletor{
+     propriedade: valor
+}
+
+*/
+
+p{
+    color: darkblue;
+}
+h1{
+    color: hotpink;
+
+    color: #9f0000;
+
+    color: rgb(221, 0, 0);
+
+    color: rgba(221, 0, 0, 0.37);
+}
+
+p{
+    color: rgb (0, 0, 139);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.box{
+    /*width: 200px;
+    height: 100px; */
+    background-color: lavender;
+    padding: 10px;
+    border: 5px dashed #9f0000 ;
+    margin: 40px;
+}
+
+.box2{
+    background-color: lightblue ;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 40;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px dotted #000 ;
+    color: gray;
+}
+
+.box3{
+    background-color: #5cfe62 ;
+    padding: 15px 25px;
+    border: 5px solid #000;
+    color: #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
